@@ -1,5 +1,5 @@
 html {
-  font-family: Noto Sans, sans-serif;
+  font-family: Helvetica;
   font-size: 18px;
   color: white;
 }
@@ -39,6 +39,9 @@ header h3 {
   padding: 0.66rem;
 }
 
+.flexboxextra {
+
+}
 
 /* main content 1/2 modifiers*/
 
@@ -48,10 +51,32 @@ header h3 {
   background-position: center;
   height: 25rem;
   background-size: cover;
+  display: flex;
+  align-items: center;
 }
 
 .newarrival {
   background-color: black;
+  width: 24rem;
+  margin-top: 4rem;
+}
+
+.newarrival h3 {
+  font-size: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 0.50rem;
+}
+
+.newarrival h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.newarrival h3,
+.newarrival h2 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 /* navigation modifiers */
