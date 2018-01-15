@@ -1,8 +1,61 @@
 html {
   font-family: Noto Sans, sans-serif;
+  font-size: 18px;
+  color: white;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
+}
+
+.widthclass {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* header modifiers */
+
+header {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1rem;
+}
+
+header .widthclass {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header img {
+  height: 1.5rem;
+  padding: 0.66rem;
+}
+
+header h3 {
+  padding: 0.66rem;
+}
+
+
+/* main content 1/2 modifiers*/
+
+.backgroundclass {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25rem;
+  background-size: cover;
+}
+
+.newarrival {
+  background-color: black;
+}
+
+/* navigation modifiers */
+
+.red {
+  background-color: firebrick;
 }
