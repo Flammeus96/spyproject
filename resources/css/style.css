@@ -91,3 +91,44 @@ nav {
   justify-content: space-between;
   padding: 0.89rem 0;
 }
+
+/* Main Contet 2/2 Modifiers */
+
+.flexboxcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottomtext {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.flexboxcontainer div {
+  border: black solid 4px;
+  margin-top: 3rem;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.bottomtext div {
+  background-color: black;
+  width: 296px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexboxcontainer img {
+  height: 9rem;
+  width: 9rem;
+  padding: 2rem;
+}
+
+.bottomtext h3 {
+  padding: 0.63rem 0;
+}
