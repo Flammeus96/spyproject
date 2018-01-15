@@ -2,6 +2,7 @@ html {
   font-family: Helvetica;
   font-size: 18px;
   color: white;
+
 }
 
 a {
@@ -121,6 +122,7 @@ div.bottomtext div {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.2rem;
 }
 
 .flexboxcontainer img {
@@ -131,4 +133,65 @@ div.bottomtext div {
 
 .bottomtext h3 {
   padding: 0.63rem 0;
+}
+
+/* Hours and Location */
+
+div.flexboxcontainer2 div {
+  background-color: black;
+  width: 30%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 3.1rem;
+}
+
+div.flexboxextra2 div {
+  color: black;
+  width: 30%;
+}
+
+.flexboxcontainer2 {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2rem;
+}
+
+.flexboxcontainer2 h3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.flexboxextra2 {
+  display: flex;
+  flex-direction: row;
+}
+
+#marginright {
+  margin-right: 13.4rem;
+}
+
+p {
+  margin-bottom: 4rem;
+}
+
+/*.thirtyfive {
+  width: 35%;
+}*/
+
+/* Footer modifiers */
+
+.black {
+  background-color: black;
+  width: 100%;
+}
+
+
+
+.flexboxcontainer3 {
+  background-color: black;
+  padding: 5rem;
+  width: 100%;
+  margin-left: 0;
 }
